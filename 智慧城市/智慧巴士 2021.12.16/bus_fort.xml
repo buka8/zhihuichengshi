@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".bus_fort">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="姓        名:"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bus_fort_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="test"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="手机号码:"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bus_fort_txt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="test"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上车地点:"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bus_fort_txt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="test"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下车地点:"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bus_fort_txt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="test"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="乘车日期:"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bus_fort_txt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="test"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="价       格:"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bus_fort_txt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="test"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/bus_fort_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:text="提交订单"
+        android:textSize="25sp" />
+
+</LinearLayout>

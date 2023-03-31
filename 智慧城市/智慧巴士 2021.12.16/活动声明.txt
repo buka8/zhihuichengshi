@@ -1,0 +1,13 @@
+ <activity
+            android:name=".bus_fort"
+            android:exported="false" />
+        <activity
+            android:name=".bus_three"
+            android:exported="false" />
+        <activity
+            android:name=".bus_two"
+            android:exported="false" />
+        <activity
+            android:name=".bus_main"
+            android:exported="false" />
+        <activity android:name=".bus_one" />

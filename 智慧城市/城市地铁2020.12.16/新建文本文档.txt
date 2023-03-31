@@ -1,0 +1,9 @@
+        <activity
+            android:name=".CityMetro"
+            android:exported="false" />
+        <activity
+            android:name=".CityPage"
+            android:exported="false" />
+        <activity
+            android:name=".City"
+            android:exported="false" />

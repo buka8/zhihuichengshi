@@ -1,0 +1,4 @@
+ <activity
+            android:name=".findhouse_detail"
+            android:exported="false" />
+<activity android:name=".findHouse_main" />

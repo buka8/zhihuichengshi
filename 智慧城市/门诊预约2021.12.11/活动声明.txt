@@ -1,0 +1,14 @@
+<activity
+            android:name=".hospital_deparment_detail"
+            android:exported="false" />
+        <activity
+            android:name=".hospital_department"
+            android:exported="false" />
+        <activity
+            android:name=".hospital_jiuZhenCard_information"
+            android:exported="false" />
+<activity
+            android:name=".hospital_main"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity android:name=".hospital_detail" />
+        <activity android:name=".hosoital_jiuZhenCard" />

@@ -1,0 +1,3 @@
+<activity
+            android:name=".JianCheMain"
+            android:exported="false" />
